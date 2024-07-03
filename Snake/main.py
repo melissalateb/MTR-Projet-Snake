@@ -1,10 +1,10 @@
 import pygame
-from controller import GameController
+from menu import Menu
 
 def main():
     pygame.init()
-    controller = GameController()
-    controller.run_game()
+    menu = Menu()
+    menu.run()
 
 if __name__ == "__main__":
     main()
