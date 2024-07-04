@@ -3,7 +3,7 @@ from model import GameModel
 from view import GameView
 
 class GameController:
-    def __init__(self, width=800, height=600, cell_size=20):
+    def __init__(self, width=500, height=500, cell_size=20):
         # Initialisation du modèle de jeu
         self.model = GameModel(width // cell_size, height // cell_size)
         # Initialisation de la vue de jeu
@@ -41,7 +41,7 @@ class GameController:
                 # Si le jeu est terminé, afficher le message de fin de jeu
                 self.show_game_over()
             self.view.draw()
-            self.clock.tick(15)  # Mettre à jour à chaque tick (15 FPS)
+            self.clock.tick(12)  # Mettre à jour à chaque tick (15 FPS)
             print("Mise à jour de l'affichage à chaque tick")
         pygame.quit()
         print("Fermeture du jeu")
