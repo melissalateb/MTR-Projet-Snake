@@ -1,0 +1,141 @@
+2024-07-05 15:41:19,619 - INFO - Démarrage du jeu
+2024-07-05 15:41:19,619 - INFO - Croissance du serpent : [(0, 0)]
+2024-07-05 15:41:19,619 - INFO - Initialisation du serpent : [(0, 0)]
+2024-07-05 15:41:19,619 - INFO - Nouvelle position de la nourriture : (22, 14)
+2024-07-05 15:41:19,619 - INFO - Position initiale de la nourriture : (22, 14)
+2024-07-05 15:41:19,648 - INFO - Initialisation de la vue du jeu : 500x500, taille des cellules : 20
+2024-07-05 15:41:19,648 - INFO - Initialisation du contrôleur du jeu
+2024-07-05 15:41:19,648 - DEBUG - Nouvelle tête calculée : (1, 0)
+2024-07-05 15:41:19,648 - DEBUG - Corps du serpent après mouvement : [(1, 0)]
+2024-07-05 15:41:19,648 - DEBUG - Collision avec le mur : False
+2024-07-05 15:41:19,648 - DEBUG - Collision avec soi-même : False
+2024-07-05 15:41:19,649 - DEBUG - Affichage de la tête du serpent à : 20, 0
+2024-07-05 15:41:19,649 - DEBUG - Affichage de la nourriture à : 440, 280
+2024-07-05 15:41:19,659 - INFO - Affichage du score : 0
+2024-07-05 15:41:19,732 - DEBUG - Mise à jour de l'affichage à chaque tick
+2024-07-05 15:41:19,733 - DEBUG - Nouvelle tête calculée : (2, 0)
+2024-07-05 15:41:19,733 - DEBUG - Corps du serpent après mouvement : [(2, 0)]
+2024-07-05 15:41:19,733 - DEBUG - Collision avec le mur : False
+2024-07-05 15:41:19,733 - DEBUG - Collision avec soi-même : False
+2024-07-05 15:41:19,733 - DEBUG - Affichage de la tête du serpent à : 40, 0
+2024-07-05 15:41:19,734 - DEBUG - Affichage de la nourriture à : 440, 280
+2024-07-05 15:41:19,734 - INFO - Affichage du score : 0
+2024-07-05 15:41:19,816 - DEBUG - Mise à jour de l'affichage à chaque tick
+2024-07-05 15:41:19,816 - DEBUG - Nouvelle tête calculée : (3, 0)
+2024-07-05 15:41:19,816 - DEBUG - Corps du serpent après mouvement : [(3, 0)]
+2024-07-05 15:41:19,816 - DEBUG - Collision avec le mur : False
+2024-07-05 15:41:19,817 - DEBUG - Collision avec soi-même : False
+2024-07-05 15:41:19,817 - DEBUG - Affichage de la tête du serpent à : 60, 0
+2024-07-05 15:41:19,817 - DEBUG - Affichage de la nourriture à : 440, 280
+2024-07-05 15:41:19,818 - INFO - Affichage du score : 0
+2024-07-05 15:41:19,899 - DEBUG - Mise à jour de l'affichage à chaque tick
+2024-07-05 15:41:19,899 - DEBUG - Nouvelle tête calculée : (4, 0)
+2024-07-05 15:41:19,899 - DEBUG - Corps du serpent après mouvement : [(4, 0)]
+2024-07-05 15:41:19,899 - DEBUG - Collision avec le mur : False
+2024-07-05 15:41:19,899 - DEBUG - Collision avec soi-même : False
+2024-07-05 15:41:19,899 - DEBUG - Affichage de la tête du serpent à : 80, 0
+2024-07-05 15:41:19,899 - DEBUG - Affichage de la nourriture à : 440, 280
+2024-07-05 15:41:19,900 - INFO - Affichage du score : 0
+2024-07-05 15:41:19,983 - DEBUG - Mise à jour de l'affichage à chaque tick
+2024-07-05 15:41:19,983 - DEBUG - Nouvelle tête calculée : (5, 0)
+2024-07-05 15:41:19,983 - DEBUG - Corps du serpent après mouvement : [(5, 0)]
+2024-07-05 15:41:19,983 - DEBUG - Collision avec le mur : False
+2024-07-05 15:41:19,983 - DEBUG - Collision avec soi-même : False
+2024-07-05 15:41:19,983 - DEBUG - Affichage de la tête du serpent à : 100, 0
+2024-07-05 15:41:19,983 - DEBUG - Affichage de la nourriture à : 440, 280
+2024-07-05 15:41:19,983 - INFO - Affichage du score : 0
+2024-07-05 15:41:20,067 - DEBUG - Mise à jour de l'affichage à chaque tick
+2024-07-05 15:41:20,067 - DEBUG - Nouvelle tête calculée : (6, 0)
+2024-07-05 15:41:20,067 - DEBUG - Corps du serpent après mouvement : [(6, 0)]
+2024-07-05 15:41:20,067 - DEBUG - Collision avec le mur : False
+2024-07-05 15:41:20,067 - DEBUG - Collision avec soi-même : False
+2024-07-05 15:41:20,068 - DEBUG - Affichage de la tête du serpent à : 120, 0
+2024-07-05 15:41:20,068 - DEBUG - Affichage de la nourriture à : 440, 280
+2024-07-05 15:41:20,068 - INFO - Affichage du score : 0
+2024-07-05 15:41:20,150 - DEBUG - Mise à jour de l'affichage à chaque tick
+2024-07-05 15:41:20,150 - DEBUG - Nouvelle tête calculée : (7, 0)
+2024-07-05 15:41:20,150 - DEBUG - Corps du serpent après mouvement : [(7, 0)]
+2024-07-05 15:41:20,151 - DEBUG - Collision avec le mur : False
+2024-07-05 15:41:20,151 - DEBUG - Collision avec soi-même : False
+2024-07-05 15:41:20,152 - DEBUG - Affichage de la tête du serpent à : 140, 0
+2024-07-05 15:41:20,152 - DEBUG - Affichage de la nourriture à : 440, 280
+2024-07-05 15:41:20,153 - INFO - Affichage du score : 0
+2024-07-05 15:41:20,233 - DEBUG - Mise à jour de l'affichage à chaque tick
+2024-07-05 15:41:20,234 - DEBUG - Nouvelle tête calculée : (8, 0)
+2024-07-05 15:41:20,234 - DEBUG - Corps du serpent après mouvement : [(8, 0)]
+2024-07-05 15:41:20,234 - DEBUG - Collision avec le mur : False
+2024-07-05 15:41:20,234 - DEBUG - Collision avec soi-même : False
+2024-07-05 15:41:20,236 - DEBUG - Affichage de la tête du serpent à : 160, 0
+2024-07-05 15:41:20,236 - DEBUG - Affichage de la nourriture à : 440, 280
+2024-07-05 15:41:20,237 - INFO - Affichage du score : 0
+2024-07-05 15:41:20,317 - DEBUG - Mise à jour de l'affichage à chaque tick
+2024-07-05 15:41:20,319 - DEBUG - Nouvelle tête calculée : (9, 0)
+2024-07-05 15:41:20,320 - DEBUG - Corps du serpent après mouvement : [(9, 0)]
+2024-07-05 15:41:20,320 - DEBUG - Collision avec le mur : False
+2024-07-05 15:41:20,320 - DEBUG - Collision avec soi-même : False
+2024-07-05 15:41:20,321 - DEBUG - Affichage de la tête du serpent à : 180, 0
+2024-07-05 15:41:20,322 - DEBUG - Affichage de la nourriture à : 440, 280
+2024-07-05 15:41:20,322 - INFO - Affichage du score : 0
+2024-07-05 15:41:20,401 - DEBUG - Mise à jour de l'affichage à chaque tick
+2024-07-05 15:41:20,404 - DEBUG - Nouvelle tête calculée : (10, 0)
+2024-07-05 15:41:20,404 - DEBUG - Corps du serpent après mouvement : [(10, 0)]
+2024-07-05 15:41:20,405 - DEBUG - Collision avec le mur : False
+2024-07-05 15:41:20,405 - DEBUG - Collision avec soi-même : False
+2024-07-05 15:41:20,406 - DEBUG - Affichage de la tête du serpent à : 200, 0
+2024-07-05 15:41:20,406 - DEBUG - Affichage de la nourriture à : 440, 280
+2024-07-05 15:41:20,407 - INFO - Affichage du score : 0
+2024-07-05 15:41:20,485 - DEBUG - Mise à jour de l'affichage à chaque tick
+2024-07-05 15:41:20,487 - DEBUG - Nouvelle tête calculée : (11, 0)
+2024-07-05 15:41:20,487 - DEBUG - Corps du serpent après mouvement : [(11, 0)]
+2024-07-05 15:41:20,487 - DEBUG - Collision avec le mur : False
+2024-07-05 15:41:20,487 - DEBUG - Collision avec soi-même : False
+2024-07-05 15:41:20,488 - DEBUG - Affichage de la tête du serpent à : 220, 0
+2024-07-05 15:41:20,488 - DEBUG - Affichage de la nourriture à : 440, 280
+2024-07-05 15:41:20,489 - INFO - Affichage du score : 0
+2024-07-05 15:41:20,568 - DEBUG - Mise à jour de l'affichage à chaque tick
+2024-07-05 15:41:20,570 - DEBUG - Nouvelle tête calculée : (12, 0)
+2024-07-05 15:41:20,570 - DEBUG - Corps du serpent après mouvement : [(12, 0)]
+2024-07-05 15:41:20,570 - DEBUG - Collision avec le mur : False
+2024-07-05 15:41:20,570 - DEBUG - Collision avec soi-même : False
+2024-07-05 15:41:20,571 - DEBUG - Affichage de la tête du serpent à : 240, 0
+2024-07-05 15:41:20,571 - DEBUG - Affichage de la nourriture à : 440, 280
+2024-07-05 15:41:20,572 - INFO - Affichage du score : 0
+2024-07-05 15:41:20,651 - DEBUG - Mise à jour de l'affichage à chaque tick
+2024-07-05 15:41:20,651 - DEBUG - Nouvelle tête calculée : (13, 0)
+2024-07-05 15:41:20,651 - DEBUG - Corps du serpent après mouvement : [(13, 0)]
+2024-07-05 15:41:20,651 - DEBUG - Collision avec le mur : False
+2024-07-05 15:41:20,651 - DEBUG - Collision avec soi-même : False
+2024-07-05 15:41:20,652 - DEBUG - Affichage de la tête du serpent à : 260, 0
+2024-07-05 15:41:20,652 - DEBUG - Affichage de la nourriture à : 440, 280
+2024-07-05 15:41:20,653 - INFO - Affichage du score : 0
+2024-07-05 15:41:20,734 - DEBUG - Mise à jour de l'affichage à chaque tick
+2024-07-05 15:41:20,734 - DEBUG - Nouvelle tête calculée : (14, 0)
+2024-07-05 15:41:20,734 - DEBUG - Corps du serpent après mouvement : [(14, 0)]
+2024-07-05 15:41:20,734 - DEBUG - Collision avec le mur : False
+2024-07-05 15:41:20,734 - DEBUG - Collision avec soi-même : False
+2024-07-05 15:41:20,735 - DEBUG - Affichage de la tête du serpent à : 280, 0
+2024-07-05 15:41:20,735 - DEBUG - Affichage de la nourriture à : 440, 280
+2024-07-05 15:41:20,735 - INFO - Affichage du score : 0
+2024-07-05 15:41:20,817 - DEBUG - Mise à jour de l'affichage à chaque tick
+2024-07-05 15:41:20,817 - DEBUG - Nouvelle tête calculée : (15, 0)
+2024-07-05 15:41:20,817 - DEBUG - Corps du serpent après mouvement : [(15, 0)]
+2024-07-05 15:41:20,818 - DEBUG - Collision avec le mur : False
+2024-07-05 15:41:20,818 - DEBUG - Collision avec soi-même : False
+2024-07-05 15:41:20,819 - DEBUG - Affichage de la tête du serpent à : 300, 0
+2024-07-05 15:41:20,819 - DEBUG - Affichage de la nourriture à : 440, 280
+2024-07-05 15:41:20,821 - INFO - Affichage du score : 0
+2024-07-05 15:41:20,902 - DEBUG - Mise à jour de l'affichage à chaque tick
+2024-07-05 15:41:20,902 - DEBUG - Nouvelle tête calculée : (16, 0)
+2024-07-05 15:41:20,902 - DEBUG - Corps du serpent après mouvement : [(16, 0)]
+2024-07-05 15:41:20,902 - DEBUG - Collision avec le mur : False
+2024-07-05 15:41:20,902 - DEBUG - Collision avec soi-même : False
+2024-07-05 15:41:20,903 - DEBUG - Affichage de la tête du serpent à : 320, 0
+2024-07-05 15:41:20,904 - DEBUG - Affichage de la nourriture à : 440, 280
+2024-07-05 15:41:20,905 - INFO - Affichage du score : 0
+2024-07-05 15:41:20,986 - DEBUG - Mise à jour de l'affichage à chaque tick
+2024-07-05 15:41:20,987 - INFO - Changement de direction : (0, -1)
+2024-07-05 15:41:20,987 - INFO - Changement de direction vers le haut
+2024-07-05 15:41:20,987 - DEBUG - Nouvelle tête calculée : (16, -1)
+2024-07-05 15:41:20,987 - DEBUG - Corps du serpent après mouvement : [(16, -1)]
+2024-07-05 15:41:20,987 - DEBUG - Collision avec le mur : True
+2024-07-05 15:41:20,987 - INFO - Fin du jeu, le serpent a heurté le mur.

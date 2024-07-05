@@ -1,8 +1,18 @@
 import pygame
+import logging
 from controller import GameController
+
+# Configuration du logger
+logging.basicConfig(
+    filename='snake_game.log',
+    level=logging.DEBUG,
+    format='%(asctime)s - %(levelname)s - %(message)s',
+    filemode='a'  # Utiliser 'a' pour ajouter au fichier existant
+)
 
 class Button:
     def __init__(self, text, pos, size, color, hover_color, action):
+        # Initialisation des propriétés du bouton
         self.text = text
         self.pos = pos
         self.size = size
@@ -12,6 +22,7 @@ class Button:
         self.font = pygame.font.SysFont("bahnschrift", 35)
 
     def draw(self, screen):
+        # Dessiner le bouton
         mouse_pos = pygame.mouse.get_pos()
         rect = pygame.Rect(self.pos, self.size)
         if rect.collidepoint(mouse_pos):
@@ -24,6 +35,7 @@ class Button:
                                    rect.y + (rect.height - text_surface.get_height()) // 2))
 
     def is_clicked(self, event):
+        # Vérifier si le bouton est cliqué
         if event.type == pygame.MOUSEBUTTONDOWN:
             if pygame.Rect(self.pos, self.size).collidepoint(event.pos):
                 return True
@@ -31,6 +43,7 @@ class Button:
 
 class Menu:
     def __init__(self, width=500, height=500, background_image='icons/background1.jpg'):
+        # Initialisation du menu
         self.width = width
         self.height = height
         self.screen = pygame.display.set_mode((self.width, self.height))
@@ -48,21 +61,25 @@ class Menu:
         self.background_image = pygame.transform.scale(self.background_image, (self.width, self.height))
 
     def draw_text(self, text, color, rect):
+        # Dessiner le texte
         font = pygame.font.SysFont("bahnschrift", 50)
         label = font.render(text, True, color)
         self.screen.blit(label, rect)
 
     def start_game(self):
-        print("Démarrage du jeu")
+        # Démarrer le jeu
+        logging.info("Démarrage du jeu")
         game_controller = GameController()
         game_controller.run_game()
         self.running = False
 
     def quit_game(self):
+        # Quitter le jeu
         self.running = False
-        print("Quitter le jeu")
+        logging.info("Quitter le jeu")
 
     def run(self):
+        # Boucle principale du menu
         while self.running:
             self.screen.blit(self.background_image, (0, 0))  # Dessiner l'image de fond
 
@@ -74,14 +91,17 @@ class Menu:
             for event in pygame.event.get():
                 if event.type == pygame.QUIT:
                     self.running = False
-                    print("Événement QUIT détecté, arrêt du jeu")
+                    logging.info("Événement QUIT détecté, arrêt du jeu")
                 for button in self.buttons:
                     if button.is_clicked(event):
                         button.action()
 
         pygame.quit()
+        logging.info("Fermeture du menu")
 
 if __name__ == "__main__":
     pygame.init()
+    logging.info("Initialisation du menu principal")
     menu = Menu()
     menu.run()
+    logging.info("Fin du programme")
